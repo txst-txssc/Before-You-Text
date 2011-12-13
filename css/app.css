@@ -87,8 +87,18 @@ iframe {
 
   .contents h5 {
     color: #b1b1b1;
+    margin-bottom: 4px;
   }
 
   .contents h6  {
     margin-bottom: 14px;
   }
+
+/* -----------------------------------------
+   Media Queries
+----------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+  /* Don't show embedded YouTube videos on a phone */
+  iframe { display: none; }
+}
