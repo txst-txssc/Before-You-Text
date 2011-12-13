@@ -33,3 +33,13 @@ blockquote small {
   blockquote small::before {
     content: '—  \00A0';
   }
+
+/* Headings */
+
+h4 {
+  margin-bottom: 12px;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
