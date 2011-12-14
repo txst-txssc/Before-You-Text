@@ -67,10 +67,6 @@
   font-weight: 300;
 }
 
-iframe {
-  margin-bottom: 25px;
-}
-
 /* -----------------------------------------
    Table of Contents
 ----------------------------------------- */
@@ -95,10 +91,32 @@ iframe {
   }
 
 /* -----------------------------------------
+   Responsive Embedded Videos
+----------------------------------------- */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* -----------------------------------------
    Media Queries
 ----------------------------------------- */
 
-@media only screen and (max-width: 480px) {
-  /* Don't show embedded YouTube videos on a phone */
-  iframe { display: none; }
+@media only screen and (max-width: 860px) {
+  .nice.tabs.vertical dd a { font-size: 12px; }
 }
