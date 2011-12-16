@@ -4,3 +4,11 @@
 	.lt-ie8 div.panel { border: 1px solid #ccc; }
 	.lt-ie8 .nav-bar li.has-flyout a { padding-right: 20px; }
 	.lt-ie8 .nav-bar li.has-flyout a:after { border-top: none; }
+
+  .lt-ie8 .ten.columns {
+    width: 78.31%;
+  }
+
+  .lt-ie8 .six.columns {
+    width: 47.78%;
+  }
