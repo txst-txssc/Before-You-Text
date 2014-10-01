@@ -8,7 +8,9 @@ This program may be used in part or in its entirety as an educational tool. Ther
 
 This is the program content only. You will need to run it through the build tool.
 
-    ant build
+```sh
+ant build -f build/build.xml
+```
 
 More information on the HTML5 Boilerplate can be found at: [Build Tool](http://html5boilerplate.com/docs/Build-script/)
 
